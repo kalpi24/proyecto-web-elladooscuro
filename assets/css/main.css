@@ -166,6 +166,26 @@ p:last-child {
 # All Common Styles
 
 ----------------------------------------------------------------------------- */
+#comprarproducto {
+  padding-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#comprar {
+  width: 100%;
+}
+
+#tablelightblue {
+color: #212529 !important;
+width: 100%;
+margin-bottom: 1rem;
+padding: 0rem !important;
+border-color: #44B9B4 !important;
+}
+
 .loader {
   bottom: 0;
   height: 100%;
