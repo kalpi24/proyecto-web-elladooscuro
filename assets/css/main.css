@@ -2482,7 +2482,6 @@ ul.social-link-team li a {
 }
 
 .product-image {
-  padding: 30px;
   padding-bottom: 0;
 }
 
@@ -2793,8 +2792,6 @@ table.order-details tbody td {
 }
 
 .single-product-item {
-  -webkit-box-shadow: 0 0 20px #e4e4e4;
-  box-shadow: 0 0 20px #e4e4e4;
   padding-bottom: 50px;
   border-radius: 5px;
 }
