@@ -513,11 +513,11 @@ a.boxed-btn, a.boxed-btn-blue, a.bordered-btn, a.cart-btn {
 }
 
 .breadcrumb-bg {
-  background-image: url(../img/breadcrumb-bg.jpg);
+  background-image: url(../img/uchuva2.jpg);
 }
 
 .breadcrumb-text p {
-  color: #C45562;
+  color: #F9CFD9;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 7px;
@@ -548,7 +548,7 @@ a.boxed-btn, a.boxed-btn-blue, a.bordered-btn, a.cart-btn {
   width: 100%;
   height: 100%;
   content: "";
-  background-color: #07212e;
+  background-color: #3FA08F;
   z-index: -1;
   opacity: 0.8;
 }
@@ -933,7 +933,7 @@ h2.widget-title:after {
   bottom: 0;
   width: 20px;
   height: 2px;
-  background-color: #F28123;
+  background-color: #F9CFD9;
   content: "";
 }
 
@@ -1240,8 +1240,8 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background-color: #051922;
-  color: #F28123;
+  background-color: #BDF2E2;
+  color: #3FA08F;
 }
 
 div.owl-controls, .owl-controls div {
@@ -1461,15 +1461,15 @@ html, body {
   content: "";
   background-color: #3FA08F;
   z-index: -1;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .hero-text p.subtitle {
-  color: #C45562;
+  color: #F9CFD9;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 7px;
-  font-size: 15px;
+  text-transform: capitalize;
+
+  font-size: 30px;
 }
 
 .hero-text h1 {
@@ -1522,10 +1522,10 @@ html, body {
 }
 
 input[type="submit"] {
-  background-color: #F28123;
-  color: #051922;
+  background-color: #3FA08F;
+  color: #BDF2E2;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 15px;
   border: none !important;
   cursor: pointer;
@@ -1571,7 +1571,7 @@ input[type="submit"] {
 .single-homepage-slider {
   background-size: cover;
   background-position: center;
-  background-color: #020C0E;
+  background-color: #000;
   position: relative;
   z-index: 1;
 }
@@ -1865,7 +1865,7 @@ span.comment-date {
 }
 
 .comment-template form p input[type=text] {
-  border: 1px solid #ddd;
+  border: 1px solid #3FA08F;
   width: 49%;
   padding: 15px;
   border-radius: 5px;
@@ -1874,7 +1874,7 @@ span.comment-date {
 }
 
 .comment-template form p input[type=email] {
-  border: 1px solid #ddd;
+  border: 1px solid #3FA08F;
   width: 49%;
   padding: 15px;
   border-radius: 5px;
@@ -1884,7 +1884,7 @@ span.comment-date {
 }
 
 .comment-template form p textarea {
-  border: 1px solid #ddd;
+  border: 1px solid #3FA08F;
   padding: 15px;
   font-size: 15px;
   color: #051922;
@@ -2338,21 +2338,23 @@ ul.social-link-team li a {
 .contact-form form p input[type=text], .contact-form form p input[type=tel], .contact-form form p input[type=email] {
   width: 49%;
   padding: 15px;
-  border: 1px solid #ddd;
+  border: 1px solid #3FA08F;
   border-radius: 3px;
+  background-color: #D4F9EE;
 }
 
 .contact-form form p textarea {
-  border: 1px solid #ddd;
+  border: 1px solid #3FA08F;
   padding: 15px;
   height: 200px;
   border-radius: 3px;
   width: 100%;
   resize: none;
+  background-color: #BDF2E2;
 }
 
 .contact-form-wrap {
-  background-color: #FBFBFB;
+  background-color: #D4F9EE;
   padding: 45px 30px;
   border-radius: 5px;
 }
@@ -2372,7 +2374,7 @@ ul.social-link-team li a {
 .contact-form-box h4 i {
   position: absolute;
   left: -13%;
-  color: #F28123;
+  color: #3FA08F;
   top: 2px;
 }
 
@@ -2383,6 +2385,19 @@ ul.social-link-team li a {
 
 .contact-form-wrap .contact-form-box:last-child {
   margin: 0;
+}
+.contact-form-wrap a {
+  color: #000;
+  text-decoration: none;
+}
+.contact-form-wrap ul {
+  list-style: none;
+  
+}
+
+.contact-form-wrap a:hover {
+  color: #3FA08F;
+  text-decoration: underline;
 }
 
 .find-location p {
@@ -2395,7 +2410,7 @@ ul.social-link-team li a {
 
 .find-location p i {
   margin-right: 10px;
-  color: #F28123;
+  color: #3FA08F;
 }
 
 #form_status span {
