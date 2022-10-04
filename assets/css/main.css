@@ -570,7 +570,7 @@ ul.navbar-nav li.nav-item a.nav-link, ul.navbar-nav li.nav-item.active a.nav-lin
 }
 
 .top-header-area.white ul.navbar-nav li.nav-item a.nav-link, .top-header-area.white ul.navbar-nav li.nav-item.active a.nav-link {
-  color: #094A4E;
+  color: #3FA08F;
 }
 
 ul.navbar-nav li.nav-item a.nav-link, ul.navbar-nav li.nav-item.active a.nav-link {
@@ -594,7 +594,7 @@ nav.main-menu ul li {
 }
 
 nav.main-menu ul li a {
-  color: #094A4E;
+  color: #3FA08F;
   font-weight: 700;
   display: block;
   padding: 15px;
