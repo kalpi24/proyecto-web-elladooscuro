@@ -341,7 +341,7 @@ border-color: #44B9B4 !important;
 }
 
 .mt-150 {
-  margin-top: 150px;
+  margin-top: 60px;
 }
 
 @media only screen and (max-width: 767.96px) {
@@ -487,18 +487,6 @@ a.boxed-btn, a.boxed-btn-blue, a.bordered-btn, a.cart-btn {
   padding-top: 80px;
 }
 
-.section-title h3:after {
-  position: absolute;
-  content: '';
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
-  width: 50px;
-  height: 2px;
-  background-color: #C45562;
-  margin: 0 auto;
-}
-
 .section-title p {
   font-size: 15px;
   width: 530px;
@@ -509,7 +497,7 @@ a.boxed-btn, a.boxed-btn-blue, a.bordered-btn, a.cart-btn {
 }
 
 .section-title {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .breadcrumb-bg {
@@ -538,7 +526,7 @@ a.boxed-btn, a.boxed-btn-blue, a.bordered-btn, a.cart-btn {
   position: relative;
   z-index: 1;
   background-attachment: fixed;
-  padding-top: 200px;
+  padding-top: 380px;
 }
 
 .breadcrumb-section:after {
@@ -548,7 +536,6 @@ a.boxed-btn, a.boxed-btn-blue, a.bordered-btn, a.cart-btn {
   width: 100%;
   height: 100%;
   content: "";
-  background-color: #3FA08F;
   z-index: -1;
   opacity: 0.8;
 }
@@ -771,7 +758,7 @@ nav.main-menu li a {
   border-color: #3FA08F;
 }
 
-@media only screen and (max-width: 993px) {
+@media only screen and (max-width: 800px) {
   .sticky-wrapper {
     background-color: rgba(0, 0, 0, 0);
     border: none;
