@@ -1305,6 +1305,7 @@ a.cart-btn {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  z-index: 1;
 }
 
 a.cart-btn:hover {
@@ -1426,7 +1427,7 @@ a.mobile-show.search-bar-icon:hover {
 
 ----------------------------------------------------------------------------- */
 .hero-bg {
-  background-image: url(../img/hero-bg.jpg);
+  background-image: url(../img/helados.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -1458,13 +1459,13 @@ html, body {
   width: 100%;
   height: 100%;
   content: "";
-  background-color: #07212e;
+  background-color: #3FA08F;
   z-index: -1;
   opacity: 0.6;
 }
 
 .hero-text p.subtitle {
-  color: #F28123;
+  color: #C45562;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 7px;
@@ -2181,12 +2182,18 @@ a.video-play-btn {
 ----------------------------------------------------------------------------- */
 .shop-banner {
   position: relative;
-  background-color: #fff;
+  background-color: #3FA08F;
   background-image: url(../img/puntosdeventa.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding: 110px 0px 115px;
+  overflow: hidden;
+}
+
+.shop-banner .trans-bg {
+  background-color: rgba(63, 160, 143, 0.8);
+  padding: 1% 0;
 }
 
 .shop-banner h3 {
