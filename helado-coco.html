@@ -7,7 +7,7 @@
 	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
 
 	<!-- title -->
-	<title>El Lado Positivo</title>
+	<title>Helado de Coco</title>
 
 	<!-- favicon -->
 	<link rel="shortcut icon" type="image/png" href="assets/img/logo.png">
@@ -35,13 +35,13 @@
 </head>
 <body>
 	
-	<!--Pantalla de carga-->
+	<!--PreLoader-->
     <div class="loader">
         <div class="loader-inner">
             <div class="circle"></div>
         </div>
     </div>
-    <!--Pantalla de carga-->
+    <!--PreLoader Ends-->
 	
 	<!-- Cabezal -->
 	<div class="top-header-area" id="sticker">
@@ -60,7 +60,7 @@
 						<!-- menú -->
 						<nav class="main-menu">
 							<ul>
-								<li class="current-list-item"><a href="#">Inicio</a>
+								<li><a href="index.html">Inicio</a>
 								</li>
 								<li><a href="shop.html">Productos</a>
 								</li>
@@ -69,7 +69,7 @@
 								<li><a href="ubicaciones.html">Ubicaciones</a>
 								</li>
 								<li><a href="contact.html">Contacto</a></li>
-								
+							
 								<li>
 									<div class="header-icons">
 										<a class="mobile-hide search-bar-icon" href="#"><i class="fas fa-search"></i></a>
@@ -86,8 +86,8 @@
 		</div>
 	</div>
 	<!-- Cabezal -->
-	
-	<!-- Buscador -->
+
+	<!-- search area -->
 	<div class="search-area">
 		<div class="container">
 			<div class="row">
@@ -95,49 +95,146 @@
 					<span class="close-btn"><i class="fas fa-window-close"></i></span>
 					<div class="search-bar">
 						<div class="search-bar-tablecell">
-							<h3>Buscar:</h3>
-							<input type="text" placeholder="Busca tu helado">
-							<button type="submit">Buscar<i class="fas fa-search"></i></button>
+							<h3>Search For:</h3>
+							<input type="text" placeholder="Keywords">
+							<button type="submit">Search <i class="fas fa-search"></i></button>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- Buscador -->
-
-	<!-- Título -->
-	<div class="hero-area hero-bg">
+	<!-- end search arewa -->
+	
+	<!-- breadcrumb-section -->
+	<div class="breadcrumb-section breadcrumb-bg">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-9 offset-lg-2 text-center">
-					<div class="hero-text">
-						<div class="hero-text-tablecell">
-							<p class="subtitle">Cremosamente irresistibles</p>
-							<h1>El Lado Positivo</h1>
-							<div class="hero-btns">
-								<a href="shop.html" class="boxed-btn">Tienda</a>
-							</div>
-						</div>
-					</div>
+				<div class="col-lg-8 offset-lg-2 text-center">
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- Título -->
-
-
-	<!-- Sección de Productos -->
-	<div class="product-section mt-150 mb-150">
+	<!-- end breadcrumb section -->
+	<div class="product-section mt-150">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2 text-center">
 					<div class="section-title">	
-						<h3><span class="orange-text">Nuestros</span> Productos</h3>
-						<p>Prueba nuestras cremosas paletas y repostería 100% vegana.</p>
+						<h3><span class="orange-text">Helado de Coco</h3>
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>		
+	<!-- single product -->
+	<div class="single-product mt-150 mb-150">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="single-product-img">
+						<img src="assets/img/coco.jpg" alt="">
+					</div>
+					<h3 class="single-product-pricing"> c. 1.500</h3>
+					<div class="row" id="comprarproducto">
+						<div class="single-product-form">
+							<a href="https://api.whatsapp.com/send?phone=50688808429" target="_blank" class="cart-btn btn-lg" id="comprar">Comprar</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-7">
+					<div class="single-product-content">
+						<!-- botones de descripción e info nutricional 
+						<a href="single-product.html" class="boxed-btn-blue mt-4">Descripción</a> <a href="about.html" class="boxed-btn-blue mt-4">Info nutricional</a>
+						-->
+						<h3 class="single-product-text">Sobre este helado</h3>
+						Esta rica y fresca infusión es especial para la digestión⁣. <br>
+						Amigables con dietas veganas, libres de gluten y lactosa, 100% frutas enteras con ingredientes naturales producidos en nuestro país.⁣
+						<h3 class="single-product-text" style="padding-top: 1.5rem;">Ingredientes</h3>
+						Leche de coco, bebida de almendras, coco seco, azúcar de caña orgánico.
+</p>					<h3 class="single-product-text" style="padding-top: 1.5rem;">Información nutricional</h3>
+<table class="table">
+	<thead>
+	  <tr>
+		<th scope="col">Tamaño de porción</th>
+		<th scope="col">1 paleta (85 g)</th>
+		<th scope="col"></th>
+	  </tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th scope="row">Valor energético</th>
+			<th>120 kcal (502 kJ)</th>
+			<td></td>
+		</tr>
+		<tr>
+			<th scope="row"></th>
+			<td></td>
+			<th>% VD</th>
+		</tr>
+	  <tr>
+		<th scope="row">Grasas</th>
+		<td>8 g</td>
+		<td>12%</td>
+	  </tr>
+	  <tr>
+		<th scope="row">Grasa saturada</th>
+		<td>7 g</td>
+		<td>35%</td>
+	  </tr>
+	  <tr>
+		<th scope="row">Grasa trans</th>
+		<td>0 g</td>
+		<td></td>
+	  </tr>
+	  <tr>
+		<th scope="row">Colesterol</th>
+		<td>0 mg</td>
+		<td>0%</td>
+	  </tr>
+	  <tr>
+		<th scope="row">Sodio</th>
+		<td>40 mg</td>
+		<td>3%</td>
+	  </tr>
+	  <tr>
+		<th scope="row">Carbohidratos</th>
+		<td>9 g</td>
+		<td>4%</td>
+	  </tr>
+	  <tr>
+		<th scope="row">Fibra dietética</th>
+		<td>1,5 g</td>
+		<td>6%</td>
+	  </tr>
+	  <tr>
+		<th scope="row">Azúcar añadido</th>
+		<td>5 g</td>
+		<td></td>
+	  </tr>
+	  <tr>
+		<th scope="row">Proteínas</th>
+		<td>0,2 g</td>
+		<td>3%</td>
+	  </tr>
+	</tbody>
+  </table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- end single product -->
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<h3><a class="masproductos" href="shop.html">Más productos</a></h3>
+			</div>
+		</div>
+	</div>		
+
 <!-- carousel -->
 <div class="logo-carousel-section">
 	<div class="container">
@@ -168,78 +265,6 @@
 	</div>
 </div>
 <!-- end carousel -->
-<!-- Imágenes de productos anteriores
-			<div class="row">
-				<div class="col-lg-4 col-md-6 text-center">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-1.jpg" alt=""></a>
-						</div>
-						<h3>Strawberry</h3>
-						<p class="product-price"><span>Per Kg</span> 85$ </p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 text-center">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-2.jpg" alt=""></a>
-						</div>
-						<h3>Berry</h3>
-						<p class="product-price"><span>Per Kg</span> 70$ </p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/product-img-3.jpg" alt=""></a>
-						</div>
-						<h3>Lemon</h3>
-						<p class="product-price"><span>Per Kg</span> 35$ </p>
-						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
--->
-	<!-- Sección de Productos -->
-	
-
-	<!-- Sobre Nosotros -->
-	<div class="abt-section mb-150 blue-bg" style="padding: 15px 0px;">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-12">
-					<div class="abt-bg">
-						<img src="assets/img/sobrenosotros.jpg" alt="Nuestra chef profesional, Paula Delgado Rodriguez, sonriendo frente a unas paletas recién hechas.">
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-12">
-					<div class="abt-text">
-						<h2>Sobre <span class="orange-text">Nosotros</span></h2>
-						<p>Elegimos ingredientes naturales de calidad, el mejor cacao de Talamanca, la leche de coco más cremosa de Sarapiquí, dulces frutas de Poás y Dota, cultivos de pequeños productores de nuestro país.</p>
-						<p>Calidad nacional libre de agroquímicos.</p>
-						<a href="about.html" class="boxed-btn-blue mt-4">Ver más</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Sobre nosotros -->
-	
-	<!-- Ubcaciones -->
-	<section class="shop-banner">
-		<div class=" trans-bg">
-    		<div class="container">
-       		 	<h3>Ubicaciones</h3>
-        	    <div class="sale-percent"><span>¡Encuéntranos en nuestros puntos de venta!</span></div>
-        	    <a href="shop.html" class="cart-btn btn-lg">Ver</a>
-        	</div>
-		</div>
-    </section>
-	<!-- Ubicaciones -->
 
 	<!-- footer -->
 	<div class="footer-area">
@@ -264,13 +289,14 @@
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<div class="footer-box pages">
-						<p>¿Tienes consultas acerca de <br> nuestras paletas? <br> <br> +506 8880 8429<br> pedidos@elladopositivo.cr</p>
-						<div class="social">
-							<a href="#"><img src="assets/img/facebook (3).png" alt="facebook"></a>
-							<a href="#"><img src="assets/img/instagram.png" alt="instagram"></a>
-							<a href="#"><img src="assets/img/messenger.png" alt="messenger"></a>
-							<a href="#"><img src="assets/img/whatsapp.png" alt="whatsapp"></a>
-						</div>
+						<h2 class="widget-title">Contactos</h2>
+						<p>¿Tienes consultas acerca de nuestras paletas?</p>
+						<ul>
+							<li><a href="#">+506 8880 8429</a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+							<li><a href="#" target="_blank"><i class="fab fa-pinterest"></i> Pinterest</a></li>
+						</ul>
 					</div>
 				</div>
 

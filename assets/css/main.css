@@ -22,7 +22,7 @@ html {
 body {
   font-family: 'Nunito', sans-serif;  
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.1rem;
   letter-spacing: 0.1px;
   line-height: 1.8;
   color: #051922;
@@ -179,12 +179,27 @@ p:last-child {
   width: 100%;
 }
 
-#tablelightblue {
+.tablanutri {
+border-top: 1px solid #44B9B4 !important;
+border-bottom: 1px solid #44B9B4 !important;
 color: #212529 !important;
 width: 100%;
 margin-bottom: 1rem;
-padding: 0rem !important;
-border-color: #44B9B4 !important;
+padding: 1rem !important;
+}
+
+.single-product-text {
+  color: #0C424B !important;
+}
+
+.masproductos {
+  color: #0C424B;
+  text-decoration: underline;
+}
+
+.masproductos:hover {
+  color: #44B9B4;
+  text-decoration: underline;
 }
 
 .loader {
@@ -489,7 +504,7 @@ a.boxed-btn, a.boxed-btn-blue, a.bordered-btn, a.cart-btn {
 }
 
 .section-title p {
-  font-size: 15px;
+  font-size: 1.2rem;
   width: 530px;
   margin: 0 auto;
   color: #555;
@@ -637,7 +652,7 @@ nav.main-menu > ul li:last-child {
 
 .site-logo {
   float: left;
-  max-width: 75px;
+  max-width: 4rem;
 }
 
 ul.sub-menu li:last-child {
@@ -897,7 +912,7 @@ a.mobile-show {
 }
 
 .logo-carousel-section {
-  background-color: #F2F2EA;
+  background-color: #FFF;
   padding: 50px 0;
 }
 
@@ -2140,7 +2155,7 @@ a.video-play-btn {
 }
 
 .abt-text p {
-  font-size: 15px;
+  font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 10px;
 }
@@ -2535,13 +2550,13 @@ p.single-product-pricing span {
 }
 
 .single-product-content p {
-  font-size: 15px;
+  font-size: 18px;
   color: #555;
   line-height: 1.8;
 }
 
 .single-product-content p.single-product-pricing {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 700;
   margin-bottom: 10px;
   color: #051922;
@@ -2824,7 +2839,7 @@ table.order-details tbody td {
 .social{
   /*las imágenes usadas tienen width de 48px*/
   width:48px;
-  position:fixed;
+  position:static;
   top:50px;
   right:0;
 }
