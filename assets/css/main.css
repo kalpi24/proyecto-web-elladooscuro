@@ -155,6 +155,7 @@ p {
   line-height: 1.8;
   color: #262722;
   margin: 0 0 1.25rem 0;
+ 
 }
 
 p:last-child {
@@ -903,7 +904,7 @@ a.mobile-show {
 .footer-area {
   background-color: #C45562;
   color: #F2F2EA;
-  padding: 150px 0;
+  padding: 30px 0;
 }
 
 h2.widget-title {
@@ -914,19 +915,10 @@ h2.widget-title {
   color: #F2F2EA;
 }
 
-h2.widget-title:after {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 20px;
-  height: 2px;
-  background-color: #F9CFD9;
-  content: "";
-}
+
 
 .footer-box p {
   color: #F2F2EA;
-  
   line-height: 1.8;
 }
 
@@ -2827,4 +2819,12 @@ table.order-details tbody td {
   display: table-cell;
   vertical-align: middle;
   width: 100%;
+}
+
+.social{
+  /*las imágenes usadas tienen width de 48px*/
+  width:48px;
+  position:fixed;
+  top:50px;
+  right:0;
 }
