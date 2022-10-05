@@ -1758,6 +1758,12 @@ p.excerpt {
   color: #555;
 }
 
+a.excerpt {
+  line-height: 1.8;
+  color: #44B9B4;
+  text-decoration: underline;
+}
+
 .latest-news a.boxed-btn {
   margin-top: 80px;
 }
