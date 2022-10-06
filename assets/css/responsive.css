@@ -265,7 +265,7 @@
 
 	.footer-box p {
 		text-align: center;
-		padding-top: 80px;
+		padding-top: 30px;
 	}
 
 	.copyright p {
@@ -446,8 +446,7 @@
 		margin-top: 0;
 	}
 	.site-logo {
-    position: absolute;
-	    z-index: 99;
+		display: none;
 	}
 
 	.mean-container .mean-bar {
