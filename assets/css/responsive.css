@@ -259,12 +259,31 @@
 	    margin-bottom: 50px;
 	}
 
+	.get-in-touch {
+		display:none;
+		}
+
+	.footer-box p {
+		text-align: center;
+		padding-top: 80px;
+	}
+
 	.copyright p {
 	    text-align: center;
 	}
 
-	.social-icons {
-	    text-align: center;
+	.social {
+	    position: absolute;
+  		top: 90%;
+  		left: 57%;
+  		transform: translate(-50%, -50%);
+		  padding-top: 20px;
+	}
+	.about-widget{
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	}
 
 	.footer-area {

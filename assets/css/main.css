@@ -73,6 +73,7 @@ h1, .h1 {
   line-height: 4rem;
 }
 
+
 @media only screen and (max-width: 767.96px) {
   h1, .h1 {
     font-size: 3rem;
@@ -963,7 +964,12 @@ h2.widget-title {
   color: #F2F2EA;
 }
 
-
+.about-widget {
+  position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 
 .footer-box p {
   color: #F2F2EA;
@@ -2881,7 +2887,7 @@ table.order-details tbody td {
 .social{
   display: inline;
   position:static;
-  top:50px;
+  top:60px;
   right:0;
 }
 
