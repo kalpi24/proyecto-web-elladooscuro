@@ -1483,9 +1483,9 @@ html, body {
   width: 100%;
   height: 100%;
   content: "";
-  background-color: #3FA08F;
+  background-color: #094A4E;
   z-index: -1;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 .hero-text p.subtitle {
@@ -2225,7 +2225,7 @@ a.video-play-btn {
 .shop-banner {
   position: relative;
   background-color: #3FA08F;
-  background-image: url(../img/puntosdeventa.jpg);
+  background-image: url(../img/tienda1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
