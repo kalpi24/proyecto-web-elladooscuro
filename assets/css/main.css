@@ -150,7 +150,7 @@ h6, .h6 {
 p {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.1rem;
   letter-spacing: 0.1px;
   line-height: 1.8;
   color: #262722;
@@ -167,6 +167,31 @@ p:last-child {
 # All Common Styles
 
 ----------------------------------------------------------------------------- */
+/*Whatsapp button*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.float:hover {
+  background-color:#1fb156;
+  color:#FFF;
+}
+.my-float{
+	margin-top:16px;
+}
+/*Whatsapp button*/
+
 #comprarproducto {
   padding-top: 20px;
   display: block;
@@ -1243,7 +1268,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #BDF2E2;
-  color: #3FA08F;
+  color: #1e5d51;
 }
 
 div.owl-controls, .owl-controls div {
@@ -1525,7 +1550,7 @@ html, body {
 
 input[type="submit"] {
   background-color: #3FA08F;
-  color: #BDF2E2;
+  color: #fff;
   font-weight: 700;
   text-transform: capitalize;
   font-size: 15px;
@@ -1731,6 +1756,12 @@ p.blog-meta span i {
 p.excerpt {
   line-height: 1.8;
   color: #555;
+}
+
+a.excerpt {
+  line-height: 1.8;
+  color: #44B9B4;
+  text-decoration: underline;
 }
 
 .latest-news a.boxed-btn {
