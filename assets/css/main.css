@@ -634,6 +634,7 @@ nav.main-menu ul li {
 nav.main-menu ul li a {
   color: #3FA08F;
   font-weight: 700;
+  font-size: larger;
   display: block;
   padding: 15px;
 }
@@ -789,7 +790,7 @@ nav.main-menu li a {
 }
 
 .top-header-area .header-icons a:hover {
-  color: #3FA08F;
+  color: #094A4E;
 }
 
 .sticky-wrapper {
