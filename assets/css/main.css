@@ -31,6 +31,7 @@ body {
 
 body img {
   max-width: 100%;
+
 }
 
 a {
@@ -2180,7 +2181,7 @@ a.video-play-btn {
 .abt-bg {
   background-image: url(../img/abt.jpg);
   height: 100%;
-  width: 100%;
+  width: 80%;
   background-size: cover;
   background-position: center;
   border-top-right-radius: 10px;
@@ -2188,6 +2189,8 @@ a.video-play-btn {
   position: relative;
   z-index: 1;
   overflow: hidden;
+  margin-left: 30px;
+  margin-bottom: -60px;
 }
 
 .abt-bg:after {
@@ -2202,8 +2205,7 @@ a.video-play-btn {
 }
 
 .abt-section .abt-text {
-  padding: 50px;
-  padding-left: 30px;
+  padding-top: 30px;
 }
 
 .abt-text p {
